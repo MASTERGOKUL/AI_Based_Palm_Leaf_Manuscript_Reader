@@ -70,10 +70,10 @@ We Won 🏆 3rd Prize at Kanitamil24 Hackathon for this project, and with the in
     ![6](./static/img/execution/6.png)
     ![7](./static/img/execution/7.png)
 
-### NOTE: The Deep Learning Model is trained using the data collected from Tamil Nadu Virtual Academy(TVA), the model can perform well if the input is similar as the given demo images
+### NOTE: The Deep Learning Model is trained using the data collected from Tamil Virtual Academy(TVA), the model can perform well if the input is similar as the given demo images
 
 ## Special Thanks 🙏
 - **Dr.Muthukumar K**        - Tamil Department, Assistant Professor, Kongunadu Arts & Science College.
 - **Tamil University - Tanjore**
 - **Yakkai Arakattalai**
-- **Tamil Nadu Virtual Academy (TVA)**
+- **Tamil Virtual Academy (TVA)**
