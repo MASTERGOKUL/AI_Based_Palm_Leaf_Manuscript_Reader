@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/login.css') }}">
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Moulpali"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Gafata"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Inter"
+    />
+    <title>Login</title>
+    <style>
+      body {
+        font-family: "Moulpali", serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <!-- green background -->
+      <img class="green-background" src=".././static/img/Vector 3.png" />
+      <!-- thiruvalluvar -->
+      <img
+        class="daddy"
+        src=".././static/img/Thiruvalluvar Wallpapers_Mobile Wallpaper copy 2 1.png"
+      />
+
+      <!-- logo and text -->
+      <div class="leaf">
+        <div class="title">
+          <img id="logo" src=".././static/img/leaves-svgrepo-com 1.png" />
+          <p id="title-text">Palm Leaf Reader</p>
+        </div>
+        <h1 style="margin-left: 10px; margin-top: 0px; font-weight: 100">
+          Welcome !
+        </h1>
+        <p id="des">Get your handwritten scripts digitalized.</p>
+      </div>
+  <div class="container">
+      <h1>Our Team</h1>
+      <div id="underline"></div>
+      <div class="image-container">
+        <div class="image">
+          <img src=".././static/img/members/balamurugan.jpg" alt="BalaMurugan" />
+          <p>Dr.Balamurugan V T<br><span class="subtext">Professer & Head, Tamil Technology Research Center , BIT<span></p>
+          <div class="social">
+            <a href="https://www.linkedin.com/in/balamurugan-varadarajan-52a41b6/" target="_blank" class="fa fa-linkedin"></a>
+
+            <a href="mailto:balamurugan@bitsathy.ac.in" class="fa fa-envelope"></a>
+          </div>
+        </div>
+        <div class="image">
+          <img src=".././static/img/members/pravinsavaridass.jpg" alt="pravinSavaridas" />
+          <p>Mr.Pravin Savaridass M<br><span class="subtext">
+            Assistant Professer, Electronics and Instrumentation Engineering ,
+            BIT
+            </span>
+          </p>
+          <div class="social">
+            <a href="https://www.linkedin.com/in/pravin-savaridass-00536b61/" target="_blank" class="fa fa-linkedin"></a>
+
+            <a href="mailto:pravinsavaridass@bitsathy.ac.in" target="_blank" class="fa fa-envelope"></a>
+          </div>
+        </div>
+        <div class="image">
+          <img src=".././static/img/members/gokul.png" alt="Gokul" />
+          <p>Mr.Gokul S<br><span class="subtext">Student, AIML Engineering , BIT</span></p>
+          <div class="social">
+            <a href="https://www.linkedin.com/in/gokul1308/" target="_blank" class="fa fa-linkedin"></a>
+
+            <a href="mailto:gokul.al21@bitsathy.ac.in" target="_blank" class="fa fa-envelope"></a>
+          </div>
+        </div>
+        <div class="image">
+          <img src=".././static/img/members/udhay.png" alt="UdhayaMoorthy" />
+          <p>Mr.Udhayamoorthy S<br><span class="subtext">Student, Agri Engineering , BIT</span></p>
+          <div class="social">
+            <a href="https://www.linkedin.com/in/udhaya-moorthy-277357259/" target="_blank" class="fa fa-linkedin"></a>
+
+            <a href="mailto:udhayamoorthy.ag22@bitsathy.ac.in" target="_blank" class="fa fa-envelope"></a>
+          </div>
+        </div>
+        <div class="image">
+          <img src=".././static/img/members/hari.png" alt="HariKrishnan" />
+          <p>Mr.Harikrishnan S<br><span class="subtext">Student, CS Engineering , BIT</span></p>
+          <div class="social">
+            <a href="https://www.linkedin.com/in/harikrishnan-s-022804267/" target="_blank" class="fa fa-linkedin"></a>
+
+            <a href="mailto:harikrishnan.cs22@bitsathy.ac.in" target="_blank" class="fa fa-envelope"></a>
+          </div>
+        </div>
+        <div class="image">
+          <img src=".././static/img/members/dhiksitha.png" alt="Dhikshitha" />
+          <p>Ms.Dhikshitha S<br><span class="subtext">Student, CS Engineering , BIT</span></p>
+          <div class="social">
+            <a href="https://www.linkedin.com/in/dhikshitha/" target="_blank" class="fa fa-linkedin"></a>
+
+            <a href="mailto:dhikshitha.cs22@bitsathy.ac.in" target="_blank" class="fa fa-envelope"></a>
+          </div>
+        </div>
+        <div class="image">
+          <img src=".././static/img/members/nandhini.jpg" alt="Nandhini" />
+          <p>Ms.Nandhini S<br><span class="subtext">Student, CS Engineering , BIT</span></p>
+          <div class="social">
+            <a href="https://www.linkedin.com/in/nanthini-sk16/" target="_blank" class="fa fa-linkedin"></a>
+
+            <a href="mailto:nanthini.cs22@bitsathy.ac.in" target="_blank" class="fa fa-envelope"></a>
+          </div>
+        </div>
+        <a href="{{url_for('characters_upload')}}" id="get-start">Start Here</a>
+      </div>
+    </div>
+      </div>
+    </div>
+  </body>
+<script>
+  {%if log is false%}
+  windows.alert("wrong credentials");
+  {%endif%}
+</script>
+</html>

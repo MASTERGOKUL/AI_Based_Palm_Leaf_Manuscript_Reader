@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- <link
+      rel="stylesheet"
+      href="../static/css/character.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',filename='css/character.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Moulpali"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=DM Sans"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Gafata"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Inter"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+    />
+    <title>Login</title>
+    <style>
+      body {
+        font-family: "Moulpali", serif;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- element to show image while clicking -->
+    <div id="image">
+        <img id="image_output_view" alt="" />
+        <!-- icon to close the image -->
+        <!-- <i class="fas fa-home"></i> -->
+        <button onclick="closed()" id="close">
+           <span style="text-shadow: 3px 5px 8px #000;font-size: 80px;font-weight:bolder;color: #E74C3C;">&#x292B;</span></button>
+    </div>
+
+    <div class="parent">
+      <!-- nav bar -->
+      <div class="nav">
+        <!-- logo -->
+        <div class="leaf">
+          <div class="title">
+            <img id="logo" src=".././static/img/leaves-svgrepo-com 1.png" />
+            <p id="title-text">Palm Leaf Reader</p>
+          </div>
+        </div>
+        <!-- bit logo -->
+        <img id="bit-logo" src=".././static/img/bitlogo.png " />
+        <!-- links -->
+        <div class="links">
+          <a style="text-decoration: underline;color:#0c7d81;" href="#"> Characters </a>
+          <a href="{{url_for('numerals_upload')}}"> Numerals</a>
+          <a href="{{url_for('login')}}"> Log out</a>
+        </div>
+      </div>
+
+      <!-- backgrounds -->
+      <img
+        id="daddy-left"
+        src=".././static/img/thiruvalluvar left.png"
+        alt="thiruvalluvar bg"
+      />
+      <img
+        id="daddy-right"
+        src=".././static/img/thiruvalluvar right.png"
+        alt="thiruvalluvar bg"
+      />
+      <!-- upload -->
+      <label for="file-upload" class="upload" id="drag-drop-label">
+        <img
+          src=".././static/img/upload-svgrepo-com 1.png"
+          alt=""
+          class="icon"
+        />
+        <div id="upload">
+          <span>Drag your files here</span>
+          <span>Or</span>
+          <div class="input">
+            <form
+              action="{{ url_for('characters_upload') }}"
+              id="form"
+              method="post"
+              enctype="multipart/form-data"
+            >
+              <button class="btn">Browse</button>
+              <input
+                id="file-upload"
+                type="file"
+                style="width: 400px"
+                name="image"
+              />
+            </form>
+          </div>
+        </div>
+      </label>
+      <!-- upload description -->
+      <p id="upload-des">
+        Supported formats : JPEG, PNG [File Size must be less than 200mb]
+      </p>
+
+      <!-- preview box  -->
+      <div class="pbox-parent">
+        <p id="preview">
+          {% if file_name%} {{file_name}} {%else%} Uploaded Image {%endif%}
+        </p>
+        <div class="prev-box">
+          <div id="image_parent">
+            {% if image %}
+            <img
+              src="data:image/jpeg;base64,{{ image }}"
+              id="input_image_from_flask"
+            />
+            {%else%}
+            <img src="" id="prev-img" />
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      <!-- output box -->
+      <div class="out-box">
+        {%if output_image%}
+        <!-- output image -->
+        <img src="data:image/jpeg;base64,{{ output_image }}" id="output_image_from_flask"/>
+
+
+        <!-- download button -->
+        <div class="output_number">
+              <!-- view button -->
+              <a
+                href="data:image/jpeg;base64,{{ output_image }}"
+                download
+                id="download"
+                >Download</a
+              >
+              <button onclick="showImage()" id="view_button">View</button>
+        </div>
+        {%endif%}
+      </div>
+    </div>
+  </body>
+  <script>
+    // code for on every time uploading
+    const input = document.getElementById("file-upload");
+    const form = document.getElementById("form");
+    input.onchange = function () {
+      // preview text
+      var last = this.value.split("\\").pop(); // "C:\fakepath\3.png" converting this value to "3.png"
+      document.getElementById("preview").innerHTML = last;
+
+      // preview image
+      const file = input.files[0];
+
+      form.submit();
+    };
+    //function to show image while click view
+    function showImage() {
+        var close = document.getElementById("close");
+        var img_parent = document.getElementById("image");
+        img_parent.style.display = "block";
+        close.style.display = "block";
+      var image = document.getElementById("output_image_from_flask");
+      var prev = document.getElementById("image_output_view");
+      prev.src = image.src;
+    }
+    //function to close the image
+    function closed() {
+      var close = document.getElementById("close");
+      var img_parent = document.getElementById("image");
+      img_parent.style.display = "none";
+      close.style.display = "none";
+    }
+  </script>
+</html>
