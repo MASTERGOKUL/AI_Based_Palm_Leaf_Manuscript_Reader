@@ -17,12 +17,14 @@ We Won 🏆 3rd Prize at Kanitamil24 Hackathon for this project, and in the name
 6. Ms.Dhikshitha S        - https://www.linkedin.com/in/dhikshitha/
 7. Ms.Nandhini S          - https://www.linkedin.com/in/nanthini-sk16/
 
+## ⚠️CAUTION: This project may only be utilized for academic research by including citations in your study; It is not allowed for commercial use...
+
 ## How to run this project 🏃
 1. #### Download⬇️ the code (from the top right corner)
    
 2. #### Extract the zip file📁
    
-3. #### Install python 3.10 or older 🐍<br>
+3. #### Install python 3.10 or newer 🐍<br>
    Official Python Site: https://www.python.org/downloads/
   
 4. #### Install the requirements 📝✅
@@ -71,5 +73,7 @@ We Won 🏆 3rd Prize at Kanitamil24 Hackathon for this project, and in the name
 ### NOTE: The Deep Learning Model is trained using the data collected from Tamil Nadu Virtual Academy(TVA), the model can perform well if the input is similar as the given demo images
 
 ## Special Thanks 🙏
-- **Dr.Muthukumar**        - Kongu Arts & Science College - Tamil Oriented Helps
-- **Yakkai Arakattalai** - Ground Truth Analysis
+- **Dr.Muthukumar K**        - Tamil Department, Assistant Professor, Kongunadu Arts & Science College.
+- **Tamil University - Tanjore**
+- **Yakkai Arakattalai**
+- **Tamil Nadu Virtual Academy (TVA)**
