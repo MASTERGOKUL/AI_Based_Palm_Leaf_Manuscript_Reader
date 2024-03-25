@@ -17,9 +17,6 @@ We Won 🏆 3rd Prize at Kanitamil24 Hackathon for this project, and in the name
 6. Ms.Dhikshitha S        - https://www.linkedin.com/in/dhikshitha/
 7. Ms.Nandhini S          - https://www.linkedin.com/in/nanthini-sk16/
 
-## Demo Video 📺
-
-
 ## How to run this project 🏃
 1. #### Download⬇️ the code (from the top right corner)
    
