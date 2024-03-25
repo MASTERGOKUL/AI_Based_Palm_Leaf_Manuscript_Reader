@@ -2,7 +2,7 @@
 ## Developed by Tamil Technology Research Center - Bannari Amman Institute Of Technology
 <br>
 <div style="display:flex;">
-   <img src="static/img/ttrc_logo_white.png" style="width:45%;"  alt="ttrc logo"/> &nbsp;
+   <img src="static/img/ttrc_logo_white_black.png" style="width:45%;"  alt="ttrc logo"/> &nbsp;
    <img src="static/img/bit_banner.png" style="width:45%;" alt="bit logo"/>
 </div>
 <br>
