@@ -1,7 +1,9 @@
 # AI Based Palm Leaf Manuscript Reader
 ### Developed by Tamil Technology Research Center - Bannari Amman Institute Of Technology
-
-"LOGO BIT,TTRC"<br>
+<div style="display:flex;">
+   <img src="static/img/bit_banner.png" style="width:50%;" alt="bit logo"/>
+   <img src="static/img/ttrc_logo.png" style="width:50%;" alt="ttrc logo"/>
+</div>
 We Won 🏆 3rd Prize at Kanitamil24 Hackathon for this project, and in the name of developing the AI Tamil community, we are releasing the code of this project version 1.
 
 ## Our Team 💪
