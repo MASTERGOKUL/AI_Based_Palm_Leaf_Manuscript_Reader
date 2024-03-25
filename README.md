@@ -66,7 +66,7 @@ We Won 🏆 3rd Prize at Kanitamil24 Hackathon for this project, and in the name
 10. #### Numerals Page
     You can also run the numerals page in the top right corner
     
-    ![5](./static/img/execution/5.png)
+    ![5](./static/img/execution/5-2.png)
     ![6](./static/img/execution/6.png)
     ![7](./static/img/execution/7.png)
 
