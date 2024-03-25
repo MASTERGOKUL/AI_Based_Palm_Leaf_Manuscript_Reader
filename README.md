@@ -6,7 +6,7 @@
    <img src="static/img/bit_banner.png" style="width:45%;" alt="bit logo"/>
 </div>
 <br>
-We Won 🏆 3rd Prize at Kanitamil24 Hackathon for this project, and in the name of developing the AI Tamil community, we are releasing the code of this project version 1.
+We Won 🏆 3rd Prize at Kanitamil24 Hackathon for this project, and with the intention of developing the AI Tamil community, we are releasing the code of this project version 1.
 
 ## Our Team 💪
 1. Dr.Balamurugan V T     - https://www.linkedin.com/in/balamurugan-varadarajan-52a41b6/
