@@ -1,15 +1,5 @@
 # AI-Based Palm Leaf Manuscript Reader
 ## Developed by Tamil Technology Research Center - Bannari Amman Institute Of Technology
-Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
-
-This work is licensed under a
-[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
-
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
-
-[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
-[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
-[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 <br>
 <div style="display:flex;">
    <img src="static/img/ttrc_logo_white_black_2.png" style="width:45%;"  alt="ttrc logo"/> &nbsp;
@@ -28,6 +18,16 @@ We Won 🏆 3rd Prize at Kanitamil24 Hackathon for this project, and with the in
 7. Ms.Nandhini S          - https://www.linkedin.com/in/nanthini-sk16/
 
 ## ⚠️CAUTION: This project may only be utilized for academic research by including citations in your study; It is not allowed for commercial use...
+Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
 ## How to run this project 🏃
 1. #### Download⬇️ the code (from the top right corner)
