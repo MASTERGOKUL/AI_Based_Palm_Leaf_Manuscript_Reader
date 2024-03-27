@@ -1,5 +1,15 @@
 # AI-Based Palm Leaf Manuscript Reader
 ## Developed by Tamil Technology Research Center - Bannari Amman Institute Of Technology
+Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 <br>
 <div style="display:flex;">
    <img src="static/img/ttrc_logo_white_black_2.png" style="width:45%;"  alt="ttrc logo"/> &nbsp;
